@@ -1,0 +1,48 @@
+Overview
+survived because
+	1. complex with few keystrokes
+	2. combine existing programs in new ways
+	3. automate repetitive tasks 
+fundamental to using more powerful tools including HPC
+prereq: saved files and know folder or directory
+		not much use if: know how to manipulate files/dirs, grep & find, scripts
+		
+Intro to shell
+computers
+	1. run programs & perform calculations
+	2. store data
+	3. communicate with one another
+	4. interact with us
+
+interact with us: brain-computer interface, speech recognition (Alexa, Google Home)
+most communication still done with hardware like mouse, keyboard, screen
+operating system receives instructions from software like windows, pointers, icons
+GUI is relatively new, since 1980s
+early development by Doug Englebart in 1960s, Mother of All Demos on youtube
+
+long before GUI, line printers were used, which permitted only keyboard entry and printer output
+software and programming languages constrained by this
+called command-line interface, or CLI, as opposed to GUI
+read-evaluate-print loop
+	user types a command and return
+	it is executed, 
+	and the result printed
+	repeat until user logs off
+
+sounds as if user directly issues commands to computer, and computer responds
+in fact user sends commands to the shell, which figures out which programs to run
+shell encloses the operating system and hides much of the complexity of direct interaction
+most common flavor of shell is bash (Bourne Again Shell) after Stephen Bourne
+default Unix shell and is most Windows Unix tools
+
+Bash feels more like programming than using a mouse or GUI.
+Commands are terse, cryptic, and result in printed output rather than something graphical.
+Efficiency in number of keystrokes, ability to combine existing tools into pipelines,
+and automate analysis of large quantities of data.
+Makes us more productive and our work more reproducible.
+Easiest way to work with remote computers
+increased use of cloud/cluster means that shell programming is essential in the sciences
+
+part of OS responsible for managing files and folders is called file system
+organizes data into files, which hold information, and places these into
+directories, which can also hold other directories
